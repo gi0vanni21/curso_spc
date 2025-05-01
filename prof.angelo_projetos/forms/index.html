@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/forms.css" type="text/css">
+</head>
+<body>
+    <head>
+        <h1>projeto P1</h1>
+    </head>
+    <form action="exibir.html" method="get">
+        <label for="nome">nome:</label>
+        <input type="text" name="nome" id="nome" 
+        placeholder="coloque seu nome"
+        maxlength=""
+        required>
+        <br>
+        <br>
+        <label for="numero">numero:</label>
+        <input type="number" name="numero" id="numero"
+        placeholder="coloque seu cpf">
+        <br>
+        <br>
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email"
+        placeholder="coloque seu email">
+        <br>
+        <br>
+        <div id="radios" class="dives">
+            <label for="videogame">radios de videogame</label>
+            <br>
+            <input type="radio" name="videogame" value="atari"> atari<br>
+            <input type="radio" name="videogame" value="snes" checked> snes<br>
+            <input type="radio" name="videogame" value="ps"> ps
+        <br>
+        <br>
+             <label for="disciplinas">radios de disciplina</label>
+             <br>
+             <input type="radio" name="disciplinas" value="amelhor"> tec front<br>
+             <input type="radio" name="disciplina" value="intro" checked> introdução<br>
+             <input type="radio" name="disciplina" value="br"> banco de dados
+             <br>
+        </div>
+        <br>
+        <div id="checkboxes" class="dives">
+            <label for="checkboxes" id="iblvgame"> aqui tem checkboxes</label><br>
+
+            <input type="checkbox" name="comida1" value="feijão">
+            <label for="comida1">feijão</label><br>
+
+            <input type="checkbox" name="arroz" id="checkbox_arroz">
+            <label for="arroz">arroz</label><br>
+
+            <input type="checkbox" name="batata" id="checkbox_batata">
+            <label for="batata">batata</label><br>
+        </div>
+        <br>
+        <br>
+        <label for="data_time">data e hora:</label><br>
+        <input type="datetime-local" name="data_time" id="required">
+        <br>
+        <br>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+        >
+        <input type="checkbox" name="aceito" value="contrato aceito!" id="aceito">
+        <label for="comida1">vocé aceita os termos de contrato <a href="contrato.html"></a></label>
+        <br>
+        <br>
+        <input type="submit" value="aceito">
+    </form>
+    <footer>
+        <h3>https://angelofdiasg.tech/tecfront202514/</h3>
+        <h4>https://www.youtube.com/</h4>
+    </footer>
+</body>
+</html>

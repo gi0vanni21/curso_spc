@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exibir via URL</title>
+  <script>
+    function pegarDadosDaURL() {
+      const params = new URLSearchParams(window.location.search);
+
+      const nome = params.get("nome") || "Não informado";
+      const numero = params.get("numero") || "Não informada";
+      const email = params.get("email") || "Não informada";
+      const aceito = params.get("aceito") || "o contrato não foi aceito!";
+
+      document.getElementById("nomeExibido").innerText = nome;
+      document.getElementById("numeroExibido").innerText = numero;
+      document.getElementById("emailExibido").innerText = email;
+      document.getElementById("aceitoExibido").innerText = aceito;
+    }
+  </script>
+</head>
+<body onload="pegarDadosDaURL()">
+  <h1>Dados Recebidos pela URL</h1>
+  <p><strong>Nome:</strong> <span id="nomeExibido"></span></p>
+  <p><strong>Numero:</strong> <span id="numeroExibido"></span></p>
+  <p><strong>Email:</strong> <span id="emailExibido"></span></p>
+  <p><strong>Aceito:</strong> <span id="aceitoExibido"></span></p>
+
+</body>
+</html>

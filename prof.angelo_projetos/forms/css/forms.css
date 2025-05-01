@@ -1,0 +1,30 @@
+label{
+    background-color: blue;
+}
+input{
+    background-color:blueviolet;
+}
+.dives{
+    border:white solid 2px;
+    background-color:white ;
+}
+#radios{
+    background-color: black;
+}
+#checkboxes{
+    background-color:red ;
+}
+body{
+    background-color: greenyellow;
+}
+#iblvgame{
+    background-color: pink;
+    color:aqua;
+}
+h1{
+    text-align: center;
+    background-color: blueviolet;
+}
+footer{
+    background-color: blueviolet;
+}
