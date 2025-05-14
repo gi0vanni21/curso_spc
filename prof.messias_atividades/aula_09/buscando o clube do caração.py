@@ -5,6 +5,7 @@ vet_clubes = [
     'palmeiras',
     'real madrid',
     'barcelona',
+    'vasco'
 ]
 
 busca = False # controle
