@@ -1,2 +1,2 @@
-# curso_spc
-apredizados de 2025
+# curso_spc 2025
+apredizados de 20/05/2025
