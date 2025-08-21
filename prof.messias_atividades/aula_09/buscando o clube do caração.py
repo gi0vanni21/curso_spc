@@ -4,7 +4,7 @@ vet_clubes = [
     'flamengo',
     'palmeiras',
     'real madrid',
-    'barcelona',
+    'barcelon',
     'inter'
 ]
 
